@@ -1,0 +1,66 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        @media screen and (min-width: 601px) {
+            /* Скрываем контент для экранов шире 600px */
+            .container {
+                display: none;
+            }
+        }
+
+        h1{
+            margin: 5px;
+        }
+
+        p{
+            margin: 5px;
+        }
+
+        .artist{
+            color: #3476e0;
+            font-weight: bold;
+        }
+
+        .year{
+            color: gray;
+        }
+
+        img{
+            width: 92%;
+            border-radius: 10px;
+        }
+
+        .centerize{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mp3{
+            width: 92%;
+            padding-top: 20px;
+        }
+
+        .mp3::-webkit-media-controls-panel{
+            background-color: blue;
+        }
+
+        .history{
+            width: 92%;
+            padding-top: 30px;
+            text-indent: 10px;
+        }
+
+
+
+
